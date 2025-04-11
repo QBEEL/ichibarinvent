@@ -1,5 +1,5 @@
-# Используем официальный образ Python
 FROM python:3.9-slim
+
 
 # Установим необходимые пакеты для компиляции
 RUN apt-get update && apt-get install -y \
